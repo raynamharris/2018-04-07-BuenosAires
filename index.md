@@ -1,18 +1,18 @@
 ---
 layout: workshop      # NO CAMBIAR ESTO 
-carpentry: "COMPLETAR"    # qué tipo de Carpentry (ya sea "lc", "dc" o "swc")
-venue: "COMPLETAR"        # nombre breve del espacio donde se lleva adelante el taller, sin dirección (por ejemplo, "Universidad de Buenos Aires")
-address: "COMPLETAR"      # dirección completa del espacio donde se realizará el taller (por ejemplo, "Aula 3, Av. Córdoba 1234, Buenos Aires, Argentina")
-country: "COMPLETAR"      # código ISO del país, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "COMPLETAR"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
+carpentry: "swc"    # qué tipo de Carpentry (ya sea "lc", "dc" o "swc")
+venue: "TBD"        # nombre breve del espacio donde se lleva adelante el taller, sin dirección (por ejemplo, "Universidad de Buenos Aires")
+address: "TBD"      # dirección completa del espacio donde se realizará el taller (por ejemplo, "Aula 3, Av. Córdoba 1234, Buenos Aires, Argentina")
+country: "AR"      # código ISO del país, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "es"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "COMPLETAR"       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
-humandate: "COMPLETAR"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
-humantime: "COMPLETAR"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
-startdate: COMPLETAR      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
-enddate: COMPLETAR        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
-instructor: ["COMPLETAR"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
-helper: ["COMPLETAR"]     # lista de nombres de las **helpers** separados por comas y entre corchetes, como ["Carrie Fisher", "Frances Allen", "Margaret Hamilton"]
-email: ["fixme@example.org"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
+humandate: "7-8 Abril 2018"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
+humantime: "13:00 - 20:00"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
+startdate: 2018-04-07      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
+enddate: 2018-04-08        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
+instructor: ["Rayna Harris", "Cynthia Monastirsky"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
+helper: ["Juli Arancio", "Marceline"]     # lista de nombres de las **helpers** separados por comas y entre corchetes, como ["Carrie Fisher", "Frances Allen", "Margaret Hamilton"]
+email: ["rayna.harris@gmail.com"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
 collaborative_notes:             # optional: URL de las notas colaborativas del taller, por ejemplo un Etherpad o documento de Google Docs 
 eventbrite:           # optional: clave alfanumérica de registro en Eventbrite, por ejemplo "1234567890AB" (si se está utilizando Eventbrite)
 ---
@@ -239,6 +239,7 @@ También es requerido que respeten el
   por favor observa la previsualización del sitio antes de comitear, y asegúrate
   de ejecutar también 'tools/check'.
 {% endcomment %}
+
 <h2 id="syllabus">Currícula</h2>
 
 {% if page.carpentry == "swc" %}
@@ -494,6 +495,7 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
+{% comment %}
 <div id="python"> {% comment %} Comienzo de la sección de 'Python'. Eliminar el tercer párrafo si el taller enseñará Python usando algo diferente a **Jupyter notebook**.
            Detalles en https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility (en inglés){% endcomment %}
   <h3>Python</h3>
@@ -583,6 +585,8 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
   </p>
 {% endcomment %}
 </div> {% comment %} Fin de la sección 'Python'. {% endcomment %}
+{% endcomment %}
+
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
