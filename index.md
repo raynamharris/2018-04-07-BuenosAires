@@ -6,10 +6,10 @@ address: "privado"      # dirección completa del espacio donde se realizará el
 country: "AR"      # código ISO del país, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "es"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "COMPLETAR"       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
-humandate: "7-8 Abril 2018"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
+humandate: "7 Abril 2018"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
 humantime: "13:00 - 20:00"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2018-04-07      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
-enddate: 2018-04-08        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
+enddate: 2018-04-07        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
 instructor: ["Rayna Harris"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
 helper: ["Juli Arancio", "Marceline Abadeer", "Cynthia Monastirsky"]     # lista de nombres de las **helpers** separados por comas y entre corchetes, como ["Carrie Fisher", "Frances Allen", "Margaret Hamilton"]
 email: ["rayna.harris@gmail.com"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
@@ -26,6 +26,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Si el valor no es 'true', 'false', 'null', o un número, por favor usa
   comillas dobles alrededor del valor, salvo que se especifique de otro modo.
   Por último ejecuta 'make workshop-check' *antes* de comitear para asegurarte que los cambios estan bien.
+
 {% endcomment %}
 
 {% comment %}
@@ -65,7 +66,14 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   PÚBLICO
 
   Explica quién es tu público. (En particular, cuenta a los lectores si el taller esta abierto sólo a personas de una institución o grupo en particular).
+  
   {% endcomment %}
+  
+<p id="Quien">
+  <strong>Quien:</strong> Solo tenemos unos 10 asientos en la sala donde organizaremos el taller, por lo que solo estará abierto a un pequeño grupo de personas que participaron en la reciente traducción de la lección Hackathon, visitantes regulares al R'lyeh Hacklab y miembros de R-Ladies Buenos Aires.
+</p>
+  
+  
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
@@ -108,6 +116,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   
   Modifica este bloque si hay algún requerimiento especial.
 {% endcomment %}
+
 <p id="requirements">
   <strong>Requerimientos:</strong> Las asistentes deben traer una computadora portátil con sistema operativo Mac, Linux o Windows (no tablet, Chromebook, etc.), que tenga permisos de administradora habilitados. Deben tener algunos paquetes de software específicos instalados (listados <a href="#setup">aquí</a>). 
 	
@@ -136,8 +145,10 @@ También es requerido que respeten el
   <li>Baños accesibles a disposición</li>
 </ul>
 <p>
-  Los materiales se entregaran antes del taller, también se encuentra disponible material impreso si se pide a los organizadores con anticipación. Si podemos ayudar a facilitar el aprendizaje (por ejemplo, con intérpretes de lenguaje de señas, o instalaciones para lactancia) por favor contáctanos (utilizando los detalles de contacto listados debajo) e intentaremos proveerlos.
+Si podemos ayudar a facilitar el aprendizaje (por ejemplo, con intérpretes de lenguaje de señas, o instalaciones para lactancia) por favor contáctanos (utilizando los detalles de contacto listados debajo) e intentaremos proveerlos.
 </p>
+
+
 
 {% comment %}
   DIRECCIONES DE CORREO ELECTRÓNICO DE CONTACTO
