@@ -68,12 +68,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Explica quién es tu público. (En particular, cuenta a los lectores si el taller esta abierto sólo a personas de una institución o grupo en particular).
   
   {% endcomment %}
-  
-<p id="Quien">
-  <strong>Quien:</strong> Solo tenemos unos 10 asientos en la sala donde organizaremos el taller, por lo que solo estará abierto a un pequeño grupo de personas que participaron en la reciente traducción de la lección Hackathon, visitantes regulares al R'lyeh Hacklab y miembros de R-Ladies Buenos Aires.
-</p>
-  
-  
+    
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
@@ -82,21 +77,24 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   {% include lc/who.html %}
 {% endif %}
 
+<p id="quienmas">
+  <strong>Quien más:</strong> Solo tenemos unos 10 asientos en la sala donde organizaremos el taller, por lo que solo estará abierto a un pequeño grupo de personas que participaron en la reciente traducción de la lección Hackathon, visitantes regulares al R'lyeh Hacklab y miembros de R-Ladies Buenos Aires.
+</p>
+
 {% comment %}
   UBICACIÓN
 
   Este bloque muestra la dirección y enlaces a mapas con instrucciones para llegar, si la latitud y longitud fueron definidas. Puedes utilizar http://itouchmap.com/latlong.html para encontrar la lat/long de una dirección. 
-{% endcomment %}
+
 {% if page.latlng %}
 <p id="where">
   <strong>Dónde:</strong>
   {{page.address}}.
-  Obtener direcciones con:
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  o
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  Les enviaremos a los participantes las instrucciones antes del taller.
 </p>
 {% endif %}
+
+
 
 {% comment %}
   FECHA
