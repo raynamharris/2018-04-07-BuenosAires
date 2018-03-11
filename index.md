@@ -62,12 +62,6 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   {% include lc/intro.html %}
 {% endif %}
 
-{% comment %}
-  PÚBLICO
-
-  Explica quién es tu público. (En particular, cuenta a los lectores si el taller esta abierto sólo a personas de una institución o grupo en particular).
-  
-  {% endcomment %}
     
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
@@ -85,6 +79,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   UBICACIÓN
 
   Este bloque muestra la dirección y enlaces a mapas con instrucciones para llegar, si la latitud y longitud fueron definidas. Puedes utilizar http://itouchmap.com/latlong.html para encontrar la lat/long de una dirección. 
+{% endcomment %}
 
 {% if page.latlng %}
 <p id="where">
@@ -595,6 +590,8 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
 {% endcomment %}
 
 
+{% comment %}
+
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -651,7 +648,7 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
-
+{% endcomment %}
 
 {% comment %}
  
