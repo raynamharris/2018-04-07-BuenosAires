@@ -5,7 +5,7 @@ venue: "R'lyeh Hacklab"        # nombre breve del espacio donde se lleva adelant
 address: "privado"      # dirección completa del espacio donde se realizará el taller (por ejemplo, "Aula 3, Av. Córdoba 1234, Buenos Aires, Argentina")
 country: "AR"      # código ISO del país, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "es"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "COMPLETAR"       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
+latlng: "-34.603722,-58.381592"       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
 humandate: "7 Abril 2018"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
 humantime: "13:00 - 20:00"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2018-04-07      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
