@@ -10,7 +10,7 @@ humandate: "7 Abril 2018"    # fechas del taller en formato legible (por ejemplo
 humantime: "13:00 - 20:00"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2018-04-07      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
 enddate: 2018-04-07        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
-instructor: ["Rayna Harris"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
+instructor: ["Rayna Harris","Juli Arancio", "Paola Prieto", "Cynthia", "Vladimir"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
 helper: ["Juli Arancio", "Paola Prieto", "Cynthia", "Vladimir"]     # lista de nombres de las **helpers** separados por comas y entre corchetes, como ["Carrie Fisher", "Frances Allen", "Margaret Hamilton"]
 email: ["rayna.harris@gmail.com"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
 collaborative_notes:             # optional: URL de las notas colaborativas del taller, por ejemplo un Etherpad o documento de Google Docs 
