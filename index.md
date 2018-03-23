@@ -71,10 +71,6 @@ eventbrite: "44293417805"      # optional: clave alfanumérica de registro en Ev
   {% include lc/who.html %}
 {% endif %}
 
-<p id="quienmas">
-  <strong>Quien más:</strong> Solo tenemos unos 10 asientos en la sala donde organizaremos el taller, por lo que solo estará abierto a un pequeño grupo de personas que participaron en la reciente traducción de la lección Hackathon, visitantes regulares al R'lyeh Hacklab y miembros de R-Ladies Buenos Aires.
-</p>
-
 {% comment %}
   UBICACIÓN
 
