@@ -127,7 +127,7 @@ También es requerido que respeten el
   Modifica este bloque si existen barreras de accesibilidad o instrucciones especiales.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accesibilidad:</strong> Estamos comprometidas a hacer que este taller sea accesible para todas. Las organizadoras comprobaron que: 
+  <strong>Accesibilidad:</strong> Si bien el salón principal es relativamente accesible, el baño no lo es (hay una escalera para acceder, y una puerta de 62cm de ancho. 
 </p>
 <ul>
   <li>El salón es accesible para silla de ruedas o similar</li>
